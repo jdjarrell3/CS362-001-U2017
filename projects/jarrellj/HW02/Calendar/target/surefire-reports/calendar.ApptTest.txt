@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: calendar.ApptTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 7, Errors: 1, Skipped: 0, Time elapsed: 2.087 sec <<< FAILURE!
-test02(calendar.ApptTest)  Time elapsed: 0.041 sec  <<< FAILURE!
+Tests run: 9, Failures: 7, Errors: 1, Skipped: 0, Time elapsed: 2.057 sec <<< FAILURE!
+test02(calendar.ApptTest)  Time elapsed: 0.023 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -38,7 +38,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test03(calendar.ApptTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+test03(calendar.ApptTest)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -110,7 +110,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test05(calendar.ApptTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+test05(calendar.ApptTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -182,7 +182,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test07(calendar.ApptTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+test07(calendar.ApptTest)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -218,7 +218,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test08(calendar.ApptTest)  Time elapsed: 0.004 sec  <<< ERROR!
+test08(calendar.ApptTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: 15
 	at calendar.CalendarUtil.NumDaysInMonth(CalendarUtil.java:30)
 	at calendar.Appt.isValid(Appt.java:109)

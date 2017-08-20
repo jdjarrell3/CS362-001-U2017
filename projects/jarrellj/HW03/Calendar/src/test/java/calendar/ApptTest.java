@@ -53,7 +53,7 @@ public class ApptTest {
 		 appt.isRecurring();
 		 appt.getRecurIncrement();
 	 }
-//	 @Test
+	 @Test
 //Tests high fail of line 113 in Appt.java
 	  public void test02()  throws Throwable  {
 		 int startHour=54;
@@ -72,7 +72,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(54, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());
@@ -82,7 +82,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests low fail of line 113 in Appt.java
 	  public void test03()  throws Throwable  {
 		 int startHour=-10;
@@ -101,7 +101,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(-10, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());
@@ -111,7 +111,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests high fail of line 116 in Appt.java
 	  public void test04()  throws Throwable  {
 		 int startHour=12;
@@ -130,7 +130,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(75, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());
@@ -140,7 +140,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests low fail of line 116 in Appt.java
 	  public void test05()  throws Throwable  {
 		 int startHour=12;
@@ -159,7 +159,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(-30, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());
@@ -169,7 +169,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests high fail of line 119 in Appt.java
 	  public void test06()  throws Throwable  {
 		 int startHour=12;
@@ -188,7 +188,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(100, appt.getStartDay());
@@ -198,7 +198,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests low fail of line 119 in Appt.java
 	  public void test07()  throws Throwable  {
 		 int startHour=12;
@@ -217,7 +217,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(-10, appt.getStartDay());
@@ -227,7 +227,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests high fail of line 122 in Appt.java
 	  public void test08()  throws Throwable  {
 		 int startHour=12;
@@ -246,7 +246,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());
@@ -256,7 +256,7 @@ public class ApptTest {
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
 	 
 	 }
-//	 @Test
+	 @Test
 //Tests low fail of line 122 in Appt.java
 	  public void test09()  throws Throwable  {
 		 int startHour=12;
@@ -275,7 +275,7 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertTrue(!appt.getValid());
 		 assertEquals(12, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
 		 assertEquals(10, appt.getStartDay());

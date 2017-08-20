@@ -20,7 +20,6 @@ package finalprojectA;
 import junit.framework.TestCase;
 
 
-
 /**
  * Performs Validation Test for url validations.
  *
@@ -420,6 +419,5 @@ public class UrlValidatorTest extends TestCase {
                             new ResultPair("ftp", false),
                             new ResultPair("httpd", false),
                             new ResultPair("telnet", false)};
-
 
 }
